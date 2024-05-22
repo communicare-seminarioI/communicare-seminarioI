@@ -467,6 +467,12 @@ h6 {
   margin-bottom: -200px;
 }
 
+#hero.ists {
+  background: url("../img/ists_hero.jpg") bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #hero .container {
   position: relative;
 }
@@ -502,6 +508,7 @@ h6 {
   display: inline-block;
   padding: 12px 35px;
   margin-top: 30px;
+  margin-right: 10px;
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
@@ -1147,7 +1154,7 @@ section {
 }
 
 .departments .details p {
-  color: #777777;
+  color: #535353;
 }
 
 .departments .details p:last-child {
@@ -1188,6 +1195,9 @@ section {
 
 .doctors .member .pic img {
   transition: ease-in-out 0.3s;
+  object-fit: cover;
+  width: 180px;
+  height: 180px;
 }
 
 .doctors .member:hover img {
@@ -1756,4 +1766,19 @@ section {
   background: #1c84e3;
   color: #fff;
   text-decoration: none;
+}
+
+
+.lista-seccao {
+  width: fit-content;
+  text-align: left;
+  margin: 10px auto auto;
+}
+
+.pane-text-section {
+
+}
+
+.pane-text-section h4 {
+  margin-top: 20px;
 }
