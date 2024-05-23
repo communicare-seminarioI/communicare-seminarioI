@@ -1278,20 +1278,21 @@ section {
   padding: 0 100px;
 }
 
-.faq .faq-list ul {
+.faq .faq-list > ul {
   padding: 0;
   list-style: none;
 }
 
-.faq .faq-list li+li {
+.faq .faq-list > ul > li+li {
   margin-top: 15px;
 }
 
-.faq .faq-list li {
+.faq .faq-list > ul > li {
   padding: 20px;
   background: #fff;
   border-radius: 4px;
   position: relative;
+  box-shadow: 0 0 9px 2px #b2b4ba24;
 }
 
 .faq .faq-list a {
